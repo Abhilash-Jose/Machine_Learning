@@ -1,0 +1,7 @@
+PCA (Principal Component Analysis) is a dimensionality reduction technique used to reduce the dimensions of large datasets with multiple features/columns. It operates as an unsupervised technique, meaning it does not require labeled data for its operation. PCA can be implemented through two primary methods:
+
+Linear Algebra Method: This approach involves the calculation of eigenvectors and eigenvalues from the covariance matrix of the dataset. These eigenvectors represent the principal components, which are orthogonal directions in the feature space capturing the maximum variance in the data.
+
+Sklearn Method: Alternatively, PCA can be performed using libraries like Scikit-learn (sklearn), which provide pre-implemented functions to conduct PCA efficiently. This method abstracts away the underlying linear algebra operations and offers a more user-friendly interface for PCA implementation.
+
+Both methods achieve the same objective of reducing the dimensionality of the dataset while retaining as much variance as possible. They provide flexibility in selecting the number of principal components based on business rules or other criteria, making PCA a versatile tool for various machine learning tasks.
